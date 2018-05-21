@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: '华文楷体';
+}
+a{
+    text-decoration: none;
+    color: #000;
+}

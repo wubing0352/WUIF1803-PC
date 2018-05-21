@@ -1,0 +1,254 @@
+.pic{
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/guanyu.jpg");
+    background-size: 1500px 250px;
+    margin-top: -192px;
+    background-repeat: no-repeat;
+}
+.pageNow {
+    background: #f0f0f0;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: right;
+    color: #666;
+}
+.pageNow>.main {
+    margin: 0px auto;
+}
+.wal{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+.wal>.sideNav {
+    width: 186px;
+    position: relative;
+    min-height: 25px;
+}
+.wal>.sideNav>.title {
+
+    width: 186px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background: #0756b3;
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: -85px;
+}
+.wal>.sideNav>.title>p{
+    font-size: 18px;
+    color: #C0CCCC;
+}
+.wal>.sideNav >.list {
+    background: #f8f8f8;
+    padding: 20px 0 10px 0;
+}
+.wal>.sideNav >.list>ul> li>.aNow{
+    background: url(../img/ico1.gif) #D7C49B 48px center no-repeat;
+}
+.wal>.sideNav >.list>ul> li> a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 5px;
+    padding-left: 61px;
+    background: url(../img/ico1.gif) 48px center no-repeat;
+    position: relative;
+}
+.wal>.sideNav >.list>ul> li:hover{
+    background: #D7C49B;
+}
+.wal>.sideNav >.list>ul> li:hover a{
+    color: white;
+}
+.wal>.neirong {
+    width: 700px;
+    margin-left: 58px;
+}
+.wal>.neirong>.pageTitle {
+    height: 58px;
+    border-bottom: #17468e solid 2px;
+    position: relative;
+    line-height: 58px;
+    color: #17468E;
+}
+.fr {
+    width: 756px;
+    padding: 15px 0;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #666;
+}
+.pageTab {
+    height: 38px;
+    line-height: 38px;
+    width: 773px;
+    overflow: hidden;
+    position: relative;
+    border: #eee solid 1px;
+    margin-top: 25px;
+    background: #f8f8f8;
+}
+.team {
+    padding-top: 20px;
+}
+.team li {
+    height: 220px;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0 30px 0 195px;
+    background: #f6f6f6;
+}
+.team .imgDiv {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: #CCC solid 1px;
+}
+.team h2 {
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    padding-top: 5px;
+}
+.team h5 {
+    line-height: 21px;
+    position: relative;
+    top: -7px; }
+.team a {
+    color: #146ec4;
+}
+.team .content {
+    font-size: 14px;
+    line-height: 22px;
+    height: 88px; overflow:
+        hidden; color: #666;
+    position: relative;
+}
+.team .content div {
+    position: absolute;
+    left: 10em; bottom: 0px;
+    height: 22px;
+    background: #f6f6f6;
+    width: 100%;
+}
+.team .content2 {
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+    padding-top: 20px;
+    display: none;
+}
+.team .btn {
+    display: block;
+    background: url(../img/btn1.png) left top no-repeat;
+    width: 61px;
+    height: 22px;
+    line-height: 22px;
+    position: absolute;
+    z-index: 10;
+    right: 30px;
+    bottom: 10px;
+    font-size: 14px;
+    color: #FFF;
+    text-indent: 5px;
+}
+.team .btnOn {
+    background: url(../img/btn1on.png) left top no-repeat;
+}
+.pageNum{
+    text-align:center;
+    height:50px;
+    line-height:32px;
+    color:#666;
+    clear:both;
+    padding-top:30px;
+}
+.pageNum a{
+    display:inline-block;
+    border:#d7d7d7 solid 1px;
+    background:#FFF;
+    height:30px;
+    line-height:30px;
+    padding:0 12px;
+    font-weight:bold;
+    margin:0 2px;
+}
+.pageNum .aNow, .pageNum a:hover{
+    color:#fff;
+    background:#0756b3;
+    border:#0756b3 solid 1px;
+}
+.pageNum em{
+    font-weight:400;
+}
+.pageNum .prev em{
+    padding-left:10px;
+    background:url(../img/prev.gif) left center no-repeat;
+}
+.pageNum .prev:hover em{
+    background:url(../img/prevon.gif) left center no-repeat;
+}
+.pageNum .next em{
+    padding-right:10px;
+    background:url(../img/next.gif) right center no-repeat;
+}
+.pageNum .next:hover em{
+    background:url(../img/nexton.gif) right center no-repeat;
+}
+.pageNum span{
+    padding:0 6px;
+}
+.pageNum .input1{
+    height:30px;
+    line-height:30px;
+    width:40px;
+    text-align:center;
+    border:#d7d7d7 solid 1px;
+    background:#FFF;
+}
+.pageNum .btn1{
+    height:30px;
+    width:40px;
+    color:#333;
+    border:#d7d7d7 solid 1px;
+    background:#eee;
+}
+.pageTab{
+    height:38px;
+    line-height:38px;
+    width:773px;
+    overflow:hidden;
+    position:relative;
+    border:#eee solid 1px;
+    margin-top:25px;
+    background:#f8f8f8;
+}
+.pageTab ul{
+    width:200%;
+}
+.pageTab li{
+    float:left;
+    border-right:#eee solid 1px;
+}
+.pageTab a{
+    display:block;
+    height:38px;
+    padding:0 45px;
+    white-space:nowrap;
+    font-size:16px;
+}
+.pageTab a:hover, .pageTab .liNow a{
+    background:#0756b3;
+}

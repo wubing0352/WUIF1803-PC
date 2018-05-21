@@ -1,0 +1,119 @@
+.header{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-image: url("../img/11.jpg");
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+}
+.main{
+    width: 1002px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header >.main>.Nam{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 20px 0;
+}
+.header >.main>.Nam>.logo{
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/000.png");
+    background-size: 100px 100px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+}
+.header >.main>.Nam>.name{
+    padding-top: 10px;
+    margin-left: 40px;
+}
+.header >.main>.Nam>.name p{
+    font-family: '华文行楷';
+    font-size: 45px;
+}
+.header >.main>.Nam>.name span{
+    font-family: '华文行楷';
+    font-size:31px;
+}
+.header >.main>.Nav{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header >.main>.Nav>.box{
+    width: 80px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 18px;
+    z-index: 999;
+}
+.header >.main>.Nav>.box>.btn{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.header >.main>.Nav>.box>.Btn{
+    width: 100px;
+    margin-top: 15px;
+    text-align: center;
+    display: none;
+    background:#C9E8FF;
+}
+.header >.main>.Nav>.box>.Btn>.hezi {
+    margin-bottom: 10px;
+}
+.header >.main>.Nav>.box:hover{
+    /*border-bottom: 2px solid #0c80dc;*/
+    color: #494fc5;
+    transform: translateY(2px);
+    /*text-shadow: 0 5px 0 rgba(0,0,0,0.4);*/
+    /*过渡*/
+    transition-duration: 0.3s;
+    /*线性*/
+    transition-timing-function: linear;
+    /*z-index: 1;*/
+    /* 隐藏 */
+    /*display: none;*/
+}
+.header >.main>.Nav>.box:hover .btn{
+    color: #494fc5;
+}
+.header >.main>.Nav>.box:hover .Btn{
+    display: block;
+    z-index: 50;
+}
+.header >.main>.Nav>.box:nth-child(1){
+    margin-left: 0;
+}
+.header >.main>.Nav>.box>.Btn>.hezi>a:hover{
+    color: red;
+}
+
+/*↑头部*/
+.footNav{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #0756B3;
+}
+.footNav a {
+    color: #FFF;
+    height: 40px;
+    padding: 0 30px;
+    background: url(../img/footNav.png) right center no-repeat;
+}
+.foot {
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: #666;
+}
